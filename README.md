@@ -3,7 +3,7 @@
 <p align="center"><h2>Screens Users Guide</h2></p>
 ### Login Page
 
-Amaç karıştırılan bardakların altındaki yüzüğü bulmaktır. İlgili Kemal Sunal sesleri de duruöa göre verilmektedir.
+Amaç karıştırılan bardakların altındaki yüzüğü bulmaktır. İlgili Kemal Sunal sesleri de duruma göre verilmektedir.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/82450697/135269062-59e09cb3-96d7-4908-9849-5e4bacd4dd8d.PNG"  width="537px" height="319px" title="hover text">
 </p>
