@@ -18,5 +18,4 @@ Amaç karıştırılan bardakların altındaki yüzüğü bulmaktır. İlgili Ke
 <hr>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/82450697/135269215-ad385c3b-442c-4441-af68-f7d51920b82e.PNG"  width="542px" height="323px" title="hover text">
-  
 </p>
