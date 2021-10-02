@@ -10,6 +10,8 @@ public class SesYoneticisi : MonoBehaviour
 
     public List<AudioClip> baslangic, win, lose;
 
+    public AudioClip bardak_Hareket;
+
     private bool sesAcikmi = true;
 
     private int sira;
@@ -24,9 +26,15 @@ public class SesYoneticisi : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
-        ObserverSystem.baslangic += baslangicMuzikVer;  // +
-        ObserverSystem.win += winMuzikVer;              // * 
-        ObserverSystem.lose += loseMuzikVer;            //+
+        ObserverSystem.instance.baslangic += baslangicMuzikVer;  // +
+        ObserverSystem.instance.win += winMuzikVer;              // * 
+        ObserverSystem.instance.lose += loseMuzikVer;            //+
+        ObserverSystem.instance.bardakHareketEtti += bardakHareketiSesiVer;
+    }
+
+    private void bardakHareketiSesiVer()
+    {
+        sesVer(bardak_Hareket);
     }
 
 

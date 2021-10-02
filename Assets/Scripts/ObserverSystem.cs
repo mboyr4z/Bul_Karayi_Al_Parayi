@@ -3,17 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public static class ObserverSystem 
+public class ObserverSystem : MonoBehaviour
 {
-    public static Action oyunBasladi;
+    public Action oyunBasladi;
 
-    public static Action bardakSecildi;
+    public Action bardakSecildi;
 
-    public static Action karistirmaBitti;
+    public Action karistirmaBitti;
 
-    public static Action baslangic, win, lose;
+    public Action baslangic, win, lose;
 
-    public static Action UIElemanlarýCekildi;
+    public Action UIElemanlarýCekildi;
 
-    public static Action restart;
+    public Action bardakHareketEtti;
+
+    public Action restart;
+
+    public Action homePage;
+
+    public static ObserverSystem instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
 }
